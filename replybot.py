@@ -62,8 +62,8 @@ def tweet(twids,message, screen_name, twusername):
 
 if __name__ == "__main__":
 
-    consumer_key = "PEpZFwjI9qO4Rx40rZZkZtbSV"
-    consumer_secret = "peC3H5kkaG2859wLFu1YmG0RXiRyU3EtTt0Q7ulsqdli6eAffv"
+    consumer_key = ""
+    consumer_secret = ""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret, "oob")
 
